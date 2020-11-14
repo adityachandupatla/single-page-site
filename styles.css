@@ -1,0 +1,98 @@
+@font-face {
+  font-family: myCustomFont;
+  src: url(Lora/static/Lora-Bold.ttf);
+}
+
+div {
+  font-family: myCustomFont;
+}
+
+li {
+  display: inline;
+  text-align: center;
+  padding: 14px 14px 14px 10px;
+  text-decoration: none;
+  font-family: myCustomFont;
+}
+
+h1 {
+  color: blue;
+}
+
+.maincontainer {
+  position: relative;
+}
+
+.pageheading {
+  position: relative;
+  display: block;
+  margin-left: 10px;
+  padding: 10px 10px 0px 45px;
+}
+
+.navigation {
+  position: relative;
+  width: 840px;
+  display: block;
+  margin-left: 10px;
+}
+
+.banner {
+  position: relative;
+  display: block;
+  margin-left: 60px;
+}
+
+.parallax{
+  background-image: url("https://csci571.com/hw/hw3/images/Cutlery.png");
+  height: 600px;
+  width: 840px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+#mytitle {
+  padding: 20px;
+  width: 800px;
+  margin-left: 50px;
+  text-align: center;
+}
+
+.customtable {
+  position: relative;
+  display: block;
+  margin-left: 35px;
+}
+
+.caption {
+  padding: 25px;
+  color: blue;
+}
+
+.table-image {
+  width: 400px;
+  height: 300px;
+  border-right: 10px solid #E6E6FA;
+}
+
+#banner-text {
+  position: relative;
+  display: block;
+  margin-left: 40px;
+  margin-top: 40px;
+  width: 480px;
+  padding: 80px;
+  font-size: 80px;
+  color: blue;
+}
+
+#banner-button {
+  position: relative;
+  display: block;
+  margin-left: 130px;
+  margin-top: 40px;
+  background-color: #FFFFFF;
+  text-align: center;
+  padding: 20px;
+  display: inline;
+}
